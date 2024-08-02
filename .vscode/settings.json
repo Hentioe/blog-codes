@@ -1,0 +1,5 @@
+{
+  "rust-analyzer.linkedProjects": [
+    "pingora-quick-start/simple-proxy/Cargo.toml",
+  ]
+}
