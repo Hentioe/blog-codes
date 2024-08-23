@@ -1,0 +1,20 @@
+setup:
+    mix deps.get 
+    just dev-env up -d
+    mix ecto.setup
+
+run:
+    iex -S mix
+
+format:
+    mix format
+
+lint:
+    mix dialyzer --ignore-exit-status
+    mix credo --mute-exit-status
+
+check:
+    just format lint
+
+dev-env +args:
+    docker compose -f docker-compose.dev.yml {{args}}
