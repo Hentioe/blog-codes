@@ -1,0 +1,9 @@
+[package]
+name = "html_parse_modify"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+html5ever = "0.29.0"
+markup5ever = "0.14.0"
+markup5ever_rcdom = "0.5.0-unofficial"
