@@ -1,6 +1,12 @@
 with import <nixpkgs> { };
 
 mkShell {
-  buildInputs = [ cmake ];
-  LIBCLANG_PATH = pkgs.lib.makeLibraryPath [ pkgs.llvmPackages_latest.libclang.lib ];
+  buildInputs = [
+    pkg-config
+    openssl # alidns-tester
+    q # alidns-tester
+  ];
+  LD_LIBRARY_PATH = lib.makeLibraryPath [
+    openssl # alidns-tester
+  ];
 }

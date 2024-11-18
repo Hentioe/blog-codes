@@ -1,6 +1,8 @@
 {
   "rust-analyzer.linkedProjects": [
     "pingora-quick-start/simple-proxy/Cargo.toml",
-    "html_parse_modify/Cargo.toml"
-  ]
+    "html_parse_modify/Cargo.toml",
+    "alidns-tester/Cargo.toml"
+  ],
+  "nixEnvSelector.nixFile": "${workspaceFolder}/shell.nix"
 }

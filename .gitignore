@@ -1,0 +1,2 @@
+# Ignore the .direnv directory (for NixOS)
+/.direnv/
