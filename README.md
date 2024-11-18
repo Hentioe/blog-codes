@@ -1,3 +1,3 @@
 # blog-codes
 
-我的博客文章中展示的代码的完整版本。
+[绅士喵博客](https://blog.hentioe.dev/)的文章中所展示代码的完整版本。
