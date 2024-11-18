@@ -35,6 +35,7 @@ fn main() {
     println!("{}", new_html);
 }
 
+#[allow(dead_code)]
 fn modify_text(handle: Handle) {
     let node = handle;
     let children = node.children.borrow();
