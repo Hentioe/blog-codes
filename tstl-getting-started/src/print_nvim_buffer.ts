@@ -1,0 +1,1 @@
+print(vim.api.nvim_buf_get_name(0)); // 假设你想获取当前缓冲区的文件名

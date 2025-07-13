@@ -1,0 +1,1 @@
+const [start, end] = string.my_find("hello world", "world"); // Should return a tuple [7, 11]
